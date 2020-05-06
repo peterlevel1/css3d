@@ -7,7 +7,9 @@ export default {
       path: '/',
       component: '../layouts/index',
       routes: [
-        { path: '/', component: '../pages/index' }
+        { path: '/', component: '../pages/index' },
+        { path: '/1', component: '../pages/1' },
+        { path: '/box-1', component: '../pages/box-1' }
       ]
     }
   ],
@@ -19,7 +21,7 @@ export default {
       dynamicImport: false,
       title: 'css3d',
       dll: false,
-      
+
       routes: {
         exclude: [
           /models\//,
